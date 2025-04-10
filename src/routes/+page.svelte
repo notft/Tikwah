@@ -185,9 +185,19 @@
       </div>
 
       <nav class="relative z-10 p-6">
-        <div class="flex items-center">
-          <span class="text-white text-2xl">تيكفا</span>
-          <span class="text-white/60 ml-2">Tikwah</span>
+        <div class="flex items-center justify-between">
+          <div class="flex items-center">
+            <span class="text-white text-2xl">تيكفا</span>
+            <span class="text-white/60 ml-2">Tikwah</span>
+          </div>
+          <div class="flex space-x-4">
+            <a 
+              href="/aboutus" 
+              class="px-4 py-2 rounded-full text-white hover:bg-white/10 transition-colors"
+            >
+              About Us
+            </a>
+          </div>
         </div>
       </nav>
 
